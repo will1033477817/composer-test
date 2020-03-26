@@ -1,0 +1,20 @@
+{
+    "name": "repository/user",
+    "type": "library",
+    "license": "Apache-2.0",
+    "description": "PHP Framework",
+    "require": {
+        "php": "^7.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "repository\\user\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0-dev"
+        }
+    }
+}
